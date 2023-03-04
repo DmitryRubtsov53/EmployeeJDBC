@@ -6,7 +6,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.List;
 
 public class EmployeeDAOImpl implements EmployeeDAO{
 
@@ -64,7 +63,8 @@ public class EmployeeDAOImpl implements EmployeeDAO{
     @Override
     public void readAll() {
         try (PreparedStatement statement = connection.prepareStatement(
-                "SELECT id, first_name, last_name, gender, age, city_name FROM city INNER JOIN employee ON employee.city_id=city.city_id")) {
+                "SELECT id, first_name, last_name, gender, age, city_name FROM city INNER JOIN employee " +
+                        "ON employee.city_id=city.city_id")) {
 
             final ResultSet resultSet = statement.executeQuery();
 

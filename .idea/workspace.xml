@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2f8143f-7642-403f-aa64-3c252880b639" name="Changes" comment="Solved task 1 of HW JDBC.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/EmployeeDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/EmployeeDAOImpl.java" afterDir="false" />
+    <list default="true" id="e2f8143f-7642-403f-aa64-3c252880b639" name="Changes" comment="Solved task #1 and #2 of HW JDBC.">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/EmployeeDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/EmployeeDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +42,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/гыук/IdeaProjects/MockTeam"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -62,7 +63,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677831584460</updated>
-      <workItem from="1677831588982" duration="23533000" />
+      <workItem from="1677831588982" duration="24965000" />
+      <workItem from="1677911128574" duration="2981000" />
     </task>
     <task id="LOCAL-00001" summary="Start doing HW JDBC.">
       <created>1677833377458</created>
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677836776828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Solved task #1 and #2 of HW JDBC.">
+      <created>1677864395067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677864395067</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start doing HW JDBC." />
     <MESSAGE value="Solved task 1 of HW JDBC." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved task 1 of HW JDBC." />
+    <MESSAGE value="Solved task #1 and #2 of HW JDBC." />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved task #1 and #2 of HW JDBC." />
   </component>
 </project>
